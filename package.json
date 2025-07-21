@@ -1,0 +1,23 @@
+{
+  "name": "csv-stream-processor",
+  "version": "1.0.0",
+  "description": "Stream-based CSV processor with PM2, worker threads, and Jest",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "csv-parse": "^6.1.0",
+    "csv-parser": "^3.0.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.18.2",
+    "os-utils": "^0.0.14",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
